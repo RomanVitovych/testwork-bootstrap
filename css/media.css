@@ -1,0 +1,341 @@
+@media (max-width: 767px) {
+  .container-sm, .container {
+    max-width: 320px;
+  }
+
+  /* ========== HEADER ========== */
+  
+  /* ===== banner ===== */
+
+  /* ===== navigation ===== */
+
+  /* === logo === */
+
+  .site-logo__img {
+    background-image: url('../img/site-logo.png');
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+  }
+
+  /* === menu === */
+
+  /* === button === */
+
+  /* ========== ABOUT US ========== */
+
+  /* ===== title ===== */
+
+  /* === conten === */
+
+  /* === button === */
+
+  .btn-aboutUs {
+    margin-bottom: 5px;
+  }
+
+  /* === images === */
+
+  .images-list li {
+    width: 50%;  
+  }
+
+}
+
+
+
+
+
+/* =========================================================================== */
+/* =========================================================================== */
+/* =========================================================================== */
+
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+
+  /* ========== HEADER ========== */
+
+  /* ===== banner ===== */
+
+  .banner {
+    min-height: 390px;
+  }
+
+  /* ===== navigation ===== */
+
+  /* === logo === */
+
+  .site-logo__img {
+    background-image: url('../img/site-logo.png');
+    height: 94px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+  }
+
+  /* === menu === */
+
+  .nav-list {
+      margin-top: 6px;
+    }
+    
+  .nav-list a {
+      font-size: 10px;
+      padding: 6px 0;
+  }
+    
+  .menu {
+      padding-top: 20px;
+  }
+
+   /* === button === */
+
+  .wrap-btn {
+    margin-top: 174px;
+  }
+
+  .header-btn {
+    font-size: 10px;
+    padding: 10px 18px;
+  }
+
+
+
+
+
+  /* ========== ABOUT US ========== */
+
+  /* ===== title ===== */
+
+  .wrap-titleAboutUs {
+    min-height: 76px;
+  }
+
+  .title-aboutUs {
+    font-size: 16px;
+  }
+
+  .subTitle-aboutUs {
+    font-size: 22px;
+  }
+
+    /* === conten === */
+
+  .content-aboutUs {
+    padding: 26px 0 36px 0;
+  }
+
+  .text-aboutUs {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+
+  /* === button === */
+
+  .btn-aboutUs {
+    font-size: 10px;
+    padding: 10px 18px;
+    margin: 0;
+  }
+
+  /* === images === */
+
+  .image-aboutUs1 {
+    min-height: 220px;
+  }
+  .image-aboutUs2 {
+    min-height: 220px;
+  }
+
+
+
+
+
+  /* ========== COOKING CLASSES ========== */
+
+  .cooking-banner {
+    min-height: 412px;
+  }
+
+  /* ===== title ===== */
+
+  .wrap-titlecooking {
+    min-height: 76px;
+    margin-bottom: 20px;
+  }
+
+  .title-cooking {
+    font-size: 16px;
+  }
+
+  .subTitle-cooking {
+    font-size: 22px;
+  }
+
+  /* === text === */
+
+  .wrap-textCooking {
+    margin-bottom: 20px;
+}
+
+.text-cooking {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+}
+
+
+
+
+
+/* =========================================================================== */
+/* =========================================================================== */
+/* =========================================================================== */
+
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+
+  /* ========== HEADER ========== */
+
+  /* ===== banner ===== */
+
+  .banner {
+    min-height: 780px;
+  }
+
+  /* ===== navigation ===== */
+
+  /* === logo === */
+
+  .site-logo__img {
+    background-image: url('../img/site-logo.png');
+    height: 188px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain ;
+    margin: 0 auto;
+  }
+
+  /* === menu === */
+
+  .nav-list {
+    margin-top: 10px;
+  }
+
+  .nav-list a {
+      font-size: 20px;
+      padding: 10px 0;
+  }
+
+  .menu {
+      padding-top: 40px;
+  }
+
+  /* === button === */
+
+  .wrap-btn {
+    margin-top: 348px;
+  }
+
+  .header-btn {
+    font-size: 14px;
+    padding: 20px 34px;
+  }
+
+
+
+
+
+  /* ========== ABOUT US ========== */
+
+  /* ===== title ===== */
+
+  .wrap-titleAboutUs {
+    min-height: 150px;
+  }
+
+  .title-aboutUs {
+    font-size: 30px;
+  }
+
+  .subTitle-aboutUs {
+    font-size: 44px;
+  }
+
+  /* === conten === */
+
+  .content-aboutUs {
+    padding: 50px 0 70px 0;
+  }
+
+  .text-aboutUs {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  /* === button === */
+
+  .btn-aboutUs {
+    font-size: 14px;
+    padding: 20px 34px;
+  }
+
+  /* === images === */
+
+  .image-aboutUs1 {
+    min-height: 440px;
+  }
+  .image-aboutUs2 {
+    min-height: 440px;
+  }
+
+
+
+
+
+  /* ========== COOKING CLASSES ========== */
+
+  .cooking-banner {
+    min-height: 826px;
+  }
+
+  /* ===== title ===== */
+
+  .wrap-titlecooking {
+    min-height: 150px;
+    margin-bottom: 40px;
+  }
+
+  .title-cooking {
+    font-size: 30px;
+  }
+
+  .subTitle-cooking {
+    font-size: 44px;
+  }
+
+  /* === text === */
+
+  .wrap-textCooking {
+    margin-bottom: 40px;
+}
+
+  .text-cooking {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+
+}
+
