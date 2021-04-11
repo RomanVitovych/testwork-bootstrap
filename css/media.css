@@ -38,10 +38,40 @@
 
   /* === images === */
 
-  .images-list li {
+  .aboutUs-images-list li {
     width: 50%;  
   }
 
+  /* ========== COOKING CLASSES ========== */
+
+  /* ===== title ===== */
+
+  /* === text === */
+
+  /* ===== button ===== */
+
+  /* ========== TRANING ========== */
+
+  /* ===== images ===== */
+
+  .traning-list {
+    margin-bottom: 10px;
+  }
+
+  /* ===== title ===== */
+
+  /* ===== text ===== */
+
+  /* ========== WINE ========== */
+
+  /* ===== title ===== */
+
+  /* ===== gallery ===== */
+
+  .wine-list li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
 }
 
 
@@ -127,7 +157,7 @@
     /* === conten === */
 
   .content-aboutUs {
-    padding: 26px 0 36px 0;
+    margin: 26px 0 36px 0;
   }
 
   .text-aboutUs {
@@ -187,6 +217,230 @@
 .text-cooking {
     font-size: 10px;
     line-height: 14px;
+}
+
+/* ===== button ===== */
+
+.wrap-btnCooking {
+    margin-bottom: 36px;
+}
+
+.cooking-btn {
+  font-size: 10px;
+  padding: 10px 18px;
+}
+
+
+
+
+
+/* ========== TRANING ========== */
+
+.wrap-traning {
+    margin: 36px 0;
+}
+
+/* ===== images ===== */
+
+.image-traning1 {
+    min-height: 136px;
+    margin-bottom: 10px;
+}
+.image-traning2 {
+    min-height: 136px;
+}
+
+/* ===== title ===== */
+
+.wrap-titleTraning {
+    margin-bottom: 26px;
+}
+
+.title-traning {
+    font-size: 16px;
+}
+
+.subTitle-traning {
+    font-size: 22px;
+}
+
+/* ===== text ===== */
+
+.traning-content-list li {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.traning-phone {
+    min-height: 16px;
+}
+
+
+
+
+
+/* ========== WINE ========== */
+
+.wine-banner {
+    min-height: 632px;
+}
+
+/* ===== title ===== */
+
+.wrap-titleWine {
+    min-height: 76px;
+    margin-bottom: 26px;
+}
+
+.title-wine {
+    font-size: 16px;
+}
+
+.subTitle-wine {
+    font-size: 22px;
+}
+
+/* ===== gallery ===== */
+
+.wine-list {
+    margin-bottom: 26px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {  
+  .wine-list li:not(:nth-child(n+7)) {
+    margin-bottom: 20px;
+  }
+}
+
+.wine-image1 {
+    min-height: 175px;
+    margin-bottom: 8px;
+}
+.wine-image2 {
+    min-height: 175px;
+    margin-bottom: 8px;
+}
+.wine-image3 {
+    min-height: 175px;
+    margin-bottom: 8px;
+}
+.wine-image4 {
+    min-height: 175px;
+    margin-bottom: 8px;
+}
+.wine-image5 {
+    min-height: 175px;
+    margin-bottom: 8px;
+}
+.wine-image6 {
+    min-height: 175px;
+    margin-bottom: 8px;
+}
+.wine-image7 {
+    min-height: 175px;
+    margin-bottom: 8px;
+}
+.wine-image8 {
+    min-height: 175px;
+    margin-bottom: 8px;
+}
+
+.wine-list p{
+    font-size: 12px;
+}
+
+/* === overlay === */
+
+.overlay-btn {
+  top: 45%;
+  font-size: 10px;
+  padding: 10px 18px;
+}
+
+/* ===== button ===== */
+
+.wrap-btnWine {
+    margin-bottom: 36px;
+}
+
+.wine-btn {
+  font-size: 10px;
+  padding: 10px 18px;
+}
+
+
+
+
+
+/* ========== TESTIMONIALS ========== */
+
+.testimonials-banner {
+    min-height: 300px;
+}
+
+/* ===== title ===== */
+
+.wrap-testimonials {
+    min-height: 76px;
+    margin-bottom: 26px;
+}
+
+.title-testimonials {
+    font-size: 16px;
+}
+
+.subTitle-testimonials {
+    font-size: 22px;
+}
+
+/* ===== content ===== */
+
+.point {
+    width: 12px;
+    height: 10px;
+    margin-bottom: 12px;
+}
+
+.testimonials-content {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 12px;
+}
+
+  .testimonials-name {
+    font-size: 12px;
+    margin-bottom: 36px;
+}
+
+/* === slider === */
+
+.arow1 {
+    width: 14px;
+    height: 10px;
+}
+.arow2 {
+    width: 14px;
+    height: 10px;
+}
+
+.empty-square {
+    width: 12px;
+    height: 12px;
+}
+
+.fill {
+  transform: translateY(25%);
+    width: 8px;
+    height: 8px;
+}
+
+
+
+
+
+.footer-banner {
+    min-height: 80px;
 }
 
 }
@@ -255,6 +509,7 @@
 
 
 
+
   /* ========== ABOUT US ========== */
 
   /* ===== title ===== */
@@ -274,13 +529,13 @@
   /* === conten === */
 
   .content-aboutUs {
-    padding: 50px 0 70px 0;
+    margin: 50px 0 70px 0;
   }
 
   .text-aboutUs {
     font-size: 16px;
     line-height: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
   }
 
   /* === button === */
@@ -334,6 +589,231 @@
     font-size: 16px;
     line-height: 28px;
 }
+
+/* ===== button ===== */
+
+.wrap-btnCooking {
+    margin-bottom: 70px;
+}
+
+.cooking-btn {
+  font-size: 14px;
+  padding: 20px 34px;
+}
+
+
+
+
+
+/* ========== TRANING ========== */
+
+.wrap-traning {
+    margin: 70px 0;
+}
+
+/* ===== images ===== */
+
+.image-traning1 {
+    min-height: 270px;
+    margin-bottom: 20px;
+}
+.image-traning2 {
+    min-height: 270px;
+}
+
+/* ===== title ===== */
+
+.wrap-titleTraning {
+    margin-bottom: 50px;
+}
+
+.title-traning {
+    font-size: 30px;
+}
+
+.subTitle-traning {
+    font-size: 44px;
+}
+
+/* ===== text ===== */
+
+.traning-content-list li {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 22px;
+}
+
+.traning-phone {
+    min-height: 30px;
+}
+
+
+
+
+
+/* ========== WINE ========== */
+
+.wine-banner {
+    min-height: 1264px;
+}
+
+/* ===== title ===== */
+
+.wrap-titleWine {
+    min-height: 150px;
+    margin-bottom: 50px;
+}
+
+.title-wine {
+    font-size: 30px;
+}
+
+.subTitle-wine {
+    font-size: 44px;
+}
+
+/* ===== gallery ===== */
+
+.wine-list {
+    margin-bottom: 50px;
+}
+
+  .wine-list li:not(:nth-child(n+5)) {
+    margin-bottom: 50px;
+  }
+
+.wine-image1 {
+    min-height: 350px;
+    margin-bottom: 14px;
+}
+.wine-image2 {
+    min-height: 350px;
+    margin-bottom: 14px;
+}
+.wine-image3 {
+    min-height: 350px;
+    margin-bottom: 14px;
+}
+.wine-image4 {
+    min-height: 350px;
+    margin-bottom: 14px;
+}
+.wine-image5 {
+    min-height: 350px;
+    margin-bottom: 14px;
+}
+.wine-image6 {
+    min-height: 350px;
+    margin-bottom: 14px;
+}
+.wine-image7 {
+    min-height: 350px;
+    margin-bottom: 14px;
+}
+.wine-image8 {
+    min-height: 350px;
+    margin-bottom: 14px;
+}
+
+.wine-list p{
+    font-size: 22px;
+    padding: 0 5px;
+}
+
+/* === overlay === */
+
+.overlay-btn {
+  font-size: 14px;
+  padding: 20px 34px;
+}
+
+/* ===== button ===== */
+
+.wrap-btnWine {
+    margin-bottom: 70px;
+}
+
+.wine-btn {
+  font-size: 14px;
+  padding: 20px 34px;
+}
+
+
+
+
+
+/* ========== TESTIMONIALS ========== */
+
+.testimonials-banner {
+    min-height: 600px;
+}
+
+/* ===== title ===== */
+
+.wrap-testimonials {
+    min-height: 150px;
+    margin-bottom: 50px;
+}
+
+.title-testimonials {
+    font-size: 30px;
+}
+
+.subTitle-testimonials {
+    font-size: 44px;
+}
+
+/* ===== content ===== */
+
+.point {
+    width: 23px;
+    height: 19px;
+    margin-bottom: 20px;
+}
+
+.testimonials-content {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+  .testimonials-name {
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+/* === slider === */
+
+.arow1 {
+    width: 24px;
+    height: 12px;
+}
+.arow2 {
+    width: 24px;
+    height: 12px;
+}
+
+.empty-square {
+    width: 18px;
+    height: 18px;
+}
+
+.fill {
+  transform: translateY(15%);
+    width: 14px;
+    height: 14px;
+}
+
+
+
+
+
+/* ========== FOOTER ========== */
+
+.footer-banner {
+    min-height: 160px;
+}
+
 
 
 
