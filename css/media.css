@@ -71,6 +71,32 @@
   .wine-list li:not(:last-child) {
     margin-bottom: 10px;
   }
+
+  /* ===== button ===== */
+
+  /* ========== TESTIMONIALS ========== */
+
+  /* ===== title ===== */
+
+  /* ===== content ===== */
+
+  /* === slider === */
+
+  /* ========== FOOTER ========== */
+
+  /* ===== logo ===== */
+
+  /* ===== menu ===== */
+
+  .footerNav-list {
+    margin-top: 5px;
+  }
+
+  /* ===== social ===== */
+
+  .icon-wrap {
+    justify-content: center;
+}
   
 }
 
@@ -439,9 +465,87 @@
 
 
 
+/* ========== FOOTER ========== */
+
 .footer-banner {
     min-height: 80px;
 }
+
+.footer-wrap {
+    padding-top: 8px;
+}
+
+/* ===== logo ===== */
+
+.footer-logo {
+    min-height: 68px;
+    width: 60px;
+    margin: 0;
+}
+
+/* === menu === */
+
+.footerNav-list a {
+    font-size: 10px;
+    padding: 6px 0;
+}
+
+/* ===== social ===== */
+
+.logo {
+    order: 0;
+}
+
+.social {
+    order: 2;
+}
+
+.nav {
+    order: 1;
+}
+
+.social-title {
+        font-size: 10px;
+        margin-bottom: 10px;
+        text-align: end;
+}
+
+.icon-wrap {
+    justify-content: flex-end;
+}
+
+.fb-wrap {
+    min-height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.fb-image {
+    min-height: 10px;
+    width: 10px;
+}
+
+.insta-wrap {
+    min-height: 20px;
+    width: 20px;
+}
+
+.insta-image {
+    min-height: 10px;
+    width: 10px;
+}
+
+/* ===== web design ===== */
+
+.webDesign-banner {
+    min-height: 20px;
+}
+
+.webDesign-banner p {
+    font-size: 10px;
+    line-height: 20px;
+}
+
 
 }
 
@@ -812,6 +916,63 @@
 
 .footer-banner {
     min-height: 160px;
+}
+
+.footer-wrap {
+    padding-top: 10px;
+}
+
+/* ===== logo ===== */
+
+.footer-logo {
+    min-height: 134px;
+    width: 120px;
+}
+
+/* === menu === */
+
+.footerNav-list a {
+    font-size: 18px;
+    padding: 8px 0;
+}
+
+/* ===== social ===== */
+
+.social-title {
+        font-size: 14px;
+        margin-bottom: 14px;
+}
+
+.fb-wrap {
+    min-height: 40px;
+    width: 40px;
+    margin-right: 30px;
+}
+
+.fb-image {
+    min-height: 20px;
+    width: 20px;
+}
+
+.insta-wrap {
+    min-height: 40px;
+    width: 40px;
+}
+
+.insta-image {
+    min-height: 20px;
+    width: 20px;
+}
+
+/* ===== web design ===== */
+
+.webDesign-banner {
+    min-height: 40px;
+}
+
+.webDesign-banner p {
+    font-size: 14px;
+    line-height: 40px;
 }
 
 
