@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+    background: url('../img/background.png');
+
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    cursor: url("../img/cursor.png"), pointer;
+}
+
+button {
+    display: block;
+    background: transparent;
+    cursor: url("../img/cursor.png"), pointer;
+}
+
+
+
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+/* ========== BACKGROUND ========== */
+.backfon {
+  min-height: 680px;
+  background-color: #222222;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: right bottom 20px;
+}
+.contact {
+  width: 940px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* ===== section contact =====*/
+
+.contact-title {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* === signup form === */
+
+.signup-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 940px;
+}
+
+.main-our-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 455px;
+}
+
+.signup-item { 
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  color: #777777;
+  padding: 5px 10px;
+}
+.signup-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+.massege {
+  width: 455px;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  color: #777777;
+  resize: none;
+  padding: 10px 10px;
+}
+
+input::placeholder {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+  padding-left: 20px;
+}
+
+textarea::placeholder {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+  padding-left: 20px;
+  padding-top: 18px;
+
+}
+
+/* = validation = */
+.signup-item:focus {
+  outline: none;
+}
+
+.massege:focus {
+  outline: none;
+}
+
+.signup-item:focus:valid {
+  outline: 2px solid green;
+}
+
+.massege:focus:valid {
+  outline: 2px solid green;
+}
+
+.signup-item:focus:invalid {
+  outline: 2px solid red;
+}
+
+.massege:focus:invalid {
+  outline: 2px solid red;
+}
+
+/* === button === */
+
+.site-button {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 24px 48px;
+  margin: 0 auto;
+  border-radius: 3%;
+  border: 1px solid #ffffff;
+  margin-top: 30px;
+  margin-bottom: 114px;
+  transition: all 0.3s linear;
+}
+
+.site-button:focus,
+.site-button:hover {
+  background: #fed136;
+  border: 1px solid transparent;
+}
