@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/bootstrap-grid.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
     <title>Document</title>
 </head>
 <body>
@@ -105,8 +107,27 @@
                     </div>
                 </div>
 
-
-
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="rev_slider">
+                            <li class="slide">
+                                <div class="slide-image image1"></div>
+                            </li>
+                            <li class="slide">
+                                <div class="slide-image image2"></div>
+                            </li>
+                            <li class="slide">
+                                <div class="slide-image image3"></div>
+                            </li>
+                            <li class="slide">
+                                <div class="slide-image image4"></div>
+                            </li>
+                            <li class="slide">
+                                <div class="slide-image image5"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
                 <div class="row justify-content-center wrap-btnCooking">
                     <div class="col-sm-4 col-xl-2">
@@ -120,7 +141,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="row wrap-traning">
-                        <div class="col-sm-12 col-md-6">
+                        <div class="col-sm-12 col-md-6 traningImg-wrap">
                             <ul class="row traning-list">
                                 <li class="col=12">
                                     <div class="image-traning1"></div>
@@ -130,7 +151,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-12 col-md-6">
+                        <div class="col-sm-12 col-md-6 traningCont-wrap">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="row justify-content-center wrap-titleTraning">
@@ -174,7 +195,7 @@
                             </div>
                         </div>
                             <ul class="row wine-list">
-                                <li class="col-sm-12 col-md-6 col-xl-3 wine-item">
+                                <!-- <li class="col-sm-12 col-md-6 col-xl-3 wine-item">
                                     <div class="wine-image1 wine-image">
                                         <div class="overlay-card">
                                             <button 
@@ -269,11 +290,11 @@
                                         </div>
                                     </div>
                                     <p>DAMILANO BAROLO LECINQUEVIGNE 2013</p>
-                                </li>
+                                </li> -->
                             </ul> 
                             <div class="row justify-content-center wrap-btnWine">
                                 <div class="col-sm-4 col-xl-2">
-                                    <button class="wine-btn">Load more</button>
+                                    <button class="wine-btn js-wine-btn">Load more</button>
                                 </div>
                             </div>
 
@@ -281,15 +302,10 @@
                             
                             <div class="backdrop js-backdrop">
                                 <div class="modal">
-                                    <div class="modal-image"></div>
+                                    <img class="modal-image"></img>
                                     <div class="content-wrap">
-                                        <h3 class="modal-title">MAYACAMAS VINEYARDS CABERNET SAUVIGNON 1999</h3>
-                                        <p>
-                                            <p class="modal-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, architecto! Aliquid similique ducimus, itaque asperiores nesciunt dolor provident ipsum eos ex eligendi, non cupiditate deleniti ipsam inventore accusantium? Debitis, repellat.</p>
-                                            <p class="modal-content"><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, iure!</p>
-                                            <p class="modal-content"><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, vitae perspiciatis! Voluptatum laborum molestiae tempore quidem, maiores at error earum.</p>
-                                            <p class="modal-content"><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores odit laudantium sint quis deleniti repellendus quae aliquid minima voluptatum ipsum. In quos libero atque? Voluptatem voluptatibus rem beatae odio eaque error dolores similique, amet, totam adipisci, magnam vero aperiam. Animi.</p>
-                                        </p>
+                                        <h3 class="modal-title"></h3>
+                                        <p class="modal-content"></p>
                                     </div>
                                     <button 
                                     type="button" 
@@ -397,7 +413,14 @@
 
 
 
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="./libs/jquery.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
     <script src="./javaScript.js" type="module"></script>
+    <script src="./wineMenu.js" type="module"></script>
+
+
 
 </body>
 </html>
+

@@ -216,7 +216,7 @@
   /* ========== COOKING CLASSES ========== */
 
   .cooking-banner {
-    min-height: 412px;
+    min-height: 420px;
   }
 
   /* ===== title ===== */
@@ -247,14 +247,16 @@
 
 /* ======================================================================== */
 
-
+.slide-image{
+    min-height: 150px;
+}
 
 /* ========================================================================== */
 
 /* ===== button ===== */
 
 .wrap-btnCooking {
-    margin-bottom: 36px;
+    margin: 26px 0 36px 0;
 }
 
 .cooking-btn {
@@ -270,6 +272,15 @@
 
 .wrap-traning {
     margin: 36px 0;
+}
+
+.traningImg-wrap {
+    order: 0;
+}
+
+.traningCont-wrap {
+    order: 1;
+    margin-bottom: 0;
 }
 
 /* ===== images ===== */
@@ -339,13 +350,22 @@
     margin-bottom: 26px;
 }
 
+.wine-image {
+    margin: 0;
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {  
   .wine-list li:not(:nth-child(n+7)) {
     margin-bottom: 20px;
   }
 }
 
-.wine-image1 {
+.wine-image img {
+    height: 175px;
+    margin-bottom: 8px;
+}
+
+/* .wine-image1 {
     min-height: 175px;
     margin-bottom: 8px;
 }
@@ -376,7 +396,7 @@
 .wine-image8 {
     min-height: 175px;
     margin-bottom: 8px;
-}
+} */
 
 .wine-list p{
     font-size: 12px;
@@ -704,7 +724,7 @@
   /* ========== COOKING CLASSES ========== */
 
   .cooking-banner {
-    min-height: 826px;
+    min-height: 840px;
   }
 
   /* ===== title ===== */
@@ -733,10 +753,18 @@
     line-height: 28px;
 }
 
+/* ========================================================= */
+
+.slide-image{
+    min-height: 300px;
+}
+
+/* ========================================================== */
+
 /* ===== button ===== */
 
 .wrap-btnCooking {
-    margin-bottom: 70px;
+    margin: 50px 0 70px 0;
 }
 
 .cooking-btn {
@@ -825,7 +853,12 @@
     margin-bottom: 50px;
   }
 
-.wine-image1 {
+  .wine-image img {
+    height: 350px;
+    margin-bottom: 14px;
+}
+
+/* .wine-image1 {
     min-height: 350px;
     margin-bottom: 14px;
 }
@@ -856,7 +889,7 @@
 .wine-image8 {
     min-height: 350px;
     margin-bottom: 14px;
-}
+} */
 
 .wine-list p{
     font-size: 22px;
