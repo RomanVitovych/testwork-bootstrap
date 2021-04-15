@@ -10,9 +10,9 @@
     box-sizing: border-box;
 }
 
-/* *{
+*{
     outline: 1px red solid;
-} */
+}
 
 img {
     display: block;
@@ -176,7 +176,7 @@ button {
 
 .banner {
     background-image: url('../img/banner.png');
-    min-height: 195px;
+    min-height: 390px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -198,21 +198,23 @@ button {
     
 /* === menu === */
     
-.nav-list {
-    margin-top: 4px;
-}
+/* .nav-list {
+    margin-top: 6px;
+} */
 
 .nav-list li {
     text-align: center;
 }
 
 .nav-list a {
+    display: block;
+    text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 6px;
+    font-size: 16px;
     text-transform: capitalize;
     color: #fff;
     border-bottom: 2px solid transparent;
-    padding: 4px 0;
+    padding: 6px 0;
     transition: border-bottom 0.3s linear;
 }
 
@@ -222,27 +224,27 @@ button {
 }
 
 .menu {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 /* === button === */
 
 .wrap-btn {
     text-align: center;
-    margin-top: 88px;
+    margin-top: 172px;
 }
 
 .header-btn {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-  font-size: 6px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #fff;
   background-color: #ff1a2c;
   border: none;
   border-radius: 3px;
   outline: none;
-  padding: 6px 10px;
+  padding: 12px 20px;
   margin: 0;
   transition: all 0.3s linear;
 }
@@ -261,21 +263,21 @@ button {
 /* ===== title ===== */
 
 .wrap-titleAboutUs {
-    min-height: 38px;
+    min-height: 120px;
     align-items: flex-end;
 }
 
 .title-aboutUs {
     text-align: center;
     font-family: 'Great Vibes', sans-serif;
-    font-size: 10px;
+    font-size: 24px;
     color: #ff1a2c;
 }
 
 .subTitle-aboutUs {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 12px;
+    font-size: 30px;
     color: #333333;
     text-transform: uppercase;
 }
@@ -283,29 +285,30 @@ button {
   /* === conten === */
 
   .content-aboutUs {
-    margin: 12px 0 18px 0;
+    margin: 30px 0 40px 0;
   }
 
   .text-aboutUs {
     font-family: 'Open Sans', sans-serif;
-    font-size: 6px;
-    line-height: 8px;
+    font-size: 14px;
+    line-height: 20px;
     color: #333333;
-    margin-bottom: 5px;
+    text-align: justify;
+    margin-bottom: 30px;
   }
 
   /* === button === */
 
   .btn-aboutUs {
     font-family: 'Open Sans', sans-serif;
-    font-size: 6px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #fff;
     background-color: #ff1a2c;
     border: none;
     border-radius: 3px;
     outline: none;
-    padding: 6px 10px;
+    padding: 12px 20px;
     margin: 0 auto;
     transition: all 0.3s linear;
   }
@@ -323,7 +326,7 @@ button {
 
   .image-aboutUs1 {
     background-image: url('../img/AboutUs/aboutUs1.png');
-    min-height: 110px;
+    min-height: 220px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -331,7 +334,7 @@ button {
   }
   .image-aboutUs2 {
     background-image: url('../img/AboutUs/aboutUs2.png');
-    min-height: 110px;
+    min-height: 220px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -346,7 +349,7 @@ button {
 
 .cooking-banner {
     background-image: url('../img/CookingClasses/background.png');
-    min-height: 210px;
+    min-height: 420px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -356,22 +359,22 @@ button {
 /* ===== title ===== */
 
 .wrap-titlecooking {
-    min-height: 38px;
+    min-height: 120px;
     align-items: flex-end;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .title-cooking {
     text-align: center;
     font-family: 'Great Vibes', sans-serif;
-    font-size: 10px;
+    font-size: 24px;
     color: #ff1a2c;
 }
 
 .subTitle-cooking {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 12px;
+    font-size: 30px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -379,13 +382,13 @@ button {
 /* === text === */
 
 .wrap-textCooking {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .text-cooking {
     font-family: 'Open Sans', sans-serif;
-    font-size: 6px;
-    line-height: 8px;
+    font-size: 14px;
+    line-height: 20px;
     color: #fff;
     text-align: center;
 }
@@ -394,7 +397,7 @@ button {
 
 .slide-image{
     display: block;
-    min-height: 100px;
+    min-height: 150px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -427,20 +430,20 @@ button {
 
 .wrap-btnCooking {
     text-align: center;
-    margin-bottom: 12px 0 18px 0;
+    padding: 30px 0 40px 0;
 }
 
 .cooking-btn {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-  font-size: 6px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #fff;
   background-color: #ff1a2c;
   border: none;
   border-radius: 3px;
   outline: none;
-  padding: 6px 10px;
+  padding: 12px 20px;
   margin: 0;
   transition: all 0.3s linear;
 }
@@ -458,7 +461,7 @@ button {
 /* ========== TRANING ========== */
 
 .wrap-traning {
-    margin: 18px 0;
+    margin: 40px 0;
 }
 
 .traningImg-wrap {
@@ -467,14 +470,14 @@ button {
 
 .traningCont-wrap {
     order: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /* ===== images ===== */
 
 .image-traning1 {
     background-image: url('../img/Traning/traning1.png');
-    min-height: 68px;
+    min-height: 140px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -483,7 +486,7 @@ button {
 }
 .image-traning2 {
     background-image: url('../img/Traning/traning2.png');
-    min-height: 68px;
+    min-height: 140px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -493,20 +496,20 @@ button {
 /* ===== title ===== */
 
 .wrap-titleTraning {
-    margin-bottom: 12px;
+    margin-bottom: 30px;
 }
 
 .title-traning {
     text-align: center;
     font-family: 'Great Vibes', sans-serif;
-    font-size: 10px;
+    font-size: 24px;
     color: #ff1a2c;
 }
 
 .subTitle-traning {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 12px;
+    font-size: 30px;
     color: #333333;
     text-transform: uppercase;
 }
@@ -515,15 +518,16 @@ button {
 
 .traning-content-list li {
     font-family: 'Open Sans', sans-serif;
-    font-size: 6px;
-    line-height: 8px;
+    font-size: 14px;
+    line-height: 20px;
     color: #333333;
-    margin-bottom: 5px;
+    text-align: justify;
+    margin-bottom: 18px;
 }
 
 .traning-phone {
     background-image: url('../img/Traning/phone.png');
-    min-height: 10px;
+    min-height: 24px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -538,7 +542,7 @@ button {
 
 .wine-banner {
     background-image: url('../img/Wine/background.png');
-    min-height: 316px;
+    min-height: 632px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -548,22 +552,22 @@ button {
 /* ===== title ===== */
 
 .wrap-titleWine {
-    min-height: 38px;
+    min-height: 120px;
     align-items: flex-end;
-    margin-bottom: 12px;
+    margin-bottom: 30px;
 }
 
 .title-wine {
     text-align: center;
     font-family: 'Great Vibes', sans-serif;
-    font-size: 10px;
+    font-size: 24px;
     color: #ff1a2c;
 }
 
 .subTitle-wine {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 12px;
+    font-size: 30px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -571,21 +575,21 @@ button {
 /* ===== gallery ===== */
 
 .wine-list {
-    margin-bottom: 12px;
+    margin-bottom: 30px;
 }
 
 .wine-image {
     position: relative;
-    margin: 0 110px;
+    /* margin: 0 110px; */
 }
 
 .wine-image img {  
-    height: 90px;
+    height: 300px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     margin: 0 auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 /* .wine-image1 {
@@ -664,10 +668,10 @@ button {
 .wine-list p{
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 6px;
+    font-size: 16px;
     color: #fff;
     text-transform: uppercase;
-    padding: 0 100px;
+    padding: 0 40px;
 }
 
 /* === overlay === */
@@ -686,19 +690,19 @@ button {
 
 .overlay-btn {
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 50%;
   transform: translateX(-50%);
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-  font-size: 6px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #fff;
   background-color: #ff1a2c;
   border: none;
   border-radius: 3px;
   outline: none;
-  padding: 6px 10px;
+  padding: 12px 20px;
   margin: 0;
   transition: all 0.3s linear;
 }
@@ -750,7 +754,7 @@ body.show-modal .modal{
     display: flex;
     max-width: 320px;
     width: 100%;
-    min-height: 170px;
+    height: 200px;
     background-color: #fff;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14),
@@ -763,32 +767,35 @@ body.show-modal .modal{
 
 .modal-image {
     /* background-image: url('../img/Wine/Wine1.png'); */
-    min-width: 100px;
+    min-width: 110px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     margin: 0 auto;
 }
 
 .content-wrap {
     padding: 0 8px;
+    overflow: scroll;
 }
 
 .modal-title {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     text-transform: uppercase;
     color: #22191a;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .modal-content {
     font-family: 'Open Sans', sans-serif;
-    font-size: 8px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 18px;
     color: #22191a;
+    text-align: justify;
     margin-bottom: 0;
+
 }
 
 .button {
@@ -801,8 +808,8 @@ body.show-modal .modal{
     top: 4%;
     right: 2%;
     background-image: url('../img/Wine/iconClose.png');
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -815,20 +822,20 @@ body.show-modal .modal{
 
 .wrap-btnWine {
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
 }
 
 .wine-btn {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-  font-size: 6px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #fff;
   background-color: #ff1a2c;
   border: none;
   border-radius: 3px;
   outline: none;
-  padding: 6px 10px;
+  padding: 12px 20px;
   margin: 0;
   transition: all 0.3s linear;
 }
@@ -849,7 +856,7 @@ body.show-modal .modal{
     position: relative;
     background-image: 
     url('../img/Testimonials/background.png');
-    min-height: 150px;
+    min-height: 540px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -868,22 +875,22 @@ body.show-modal .modal{
 /* ===== title ===== */
 
 .wrap-testimonials {
-    min-height: 38px;
+    min-height: 150px;
     align-items: flex-end;
-    margin-bottom: 12px;
+    margin-bottom: 30px;
 }
 
 .title-testimonials {
     text-align: center;
     font-family: 'Great Vibes', sans-serif;
-    font-size: 10px;
+    font-size: 24px;
     color: #ff1a2c;
 }
 
 .subTitle-testimonials {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 12px;
+    font-size: 30px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -892,31 +899,32 @@ body.show-modal .modal{
 
 .point {
     background-image: url('../img/Testimonials/points.png');
-    width: 7px;
-    height: 6px;
+    width: 16px;
+    height: 14px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    margin-bottom: 6px;
+    margin-bottom:16px;
 }
 
 .testimonials-content {
     font-family: 'Open Sans', sans-serif;
-    font-size: 6px;
-    line-height: 8px;
+    font-size: 14px;
+    line-height: 20px;
     color: #fff;
-    margin-bottom: 6px;
+    text-align: justify;
+    margin-bottom: 40px;
 }
 
 .testimonials-name {
     font-family: 'Open Sans', sans-serif;
-    font-size: 8px;
+    font-size: 14px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
 }
 
 /* === slider === */
@@ -924,6 +932,7 @@ body.show-modal .modal{
 .slider-nav {
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .slider-nav button {
@@ -934,21 +943,21 @@ body.show-modal .modal{
 .arow1 {
     background-image: 
     url('../img/Testimonials/slider/leftArrow.png');
-    width: 8px;
-    height: 6px;
+    width: 18px;
+    height: 16px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     margin: 0 auto;
 }
 .arow2 {
     background-image: 
     url('../img/Testimonials/slider/rightArrow.png');
-    width: 8px;
-    height: 6px;
+    width: 18px;
+    height: 16px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     margin: 0 auto;
 }
 
@@ -960,8 +969,8 @@ body.show-modal .modal{
 .empty-square {
     background-image: 
     url('../img/Testimonials/slider/empty1.png');
-    width: 8px;
-    height: 8px;
+    width: 14px;
+    height: 14px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -973,11 +982,11 @@ body.show-modal .modal{
 }
 .fill {
     position: relative;
-    transform: translateY(45%);
+    transform: translateY(20%);
     background-image: 
     url('../img/Testimonials/slider/fill.png');
-    width: 4px;
-    height: 4px;
+    width: 10px;
+    height: 10px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -993,7 +1002,7 @@ body.show-modal .modal{
 .footer-banner {
     background-image: 
     url('../img/Footer/background.png');
-    min-height: 40px;
+    min-height: 80px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1008,8 +1017,8 @@ body.show-modal .modal{
 
 .footer-logo {
     background-image: url('../img/Footer/footerLogo.png');
-    min-height: 34px;
-    width: 30px;
+    min-height: 68px;
+    width: 60px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1028,7 +1037,7 @@ body.show-modal .modal{
 
 .footerNav-list a {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 6px;
+    font-size: 10px;
     text-transform: capitalize;
     color: #fff;
     border-bottom: 2px solid transparent;
@@ -1062,11 +1071,11 @@ body.show-modal .modal{
 
 .social-title {
         font-family: 'Open Sans', sans-serif;
-        font-size: 8px;
+        font-size: 10px;
         text-transform: uppercase;
         color: #fff;
         text-align: center;
-        margin-bottom: 6px;
+        margin-bottom: 10px;
 }
 
 .icon-wrap {
@@ -1076,8 +1085,8 @@ body.show-modal .modal{
 .fb-wrap {
     position: relative;
     background-image: url('../img/Footer/fbBG.png');
-    min-height: 14px;
-    width: 14px;
+    min-height: 20px;
+    width: 20px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1087,11 +1096,11 @@ body.show-modal .modal{
 
 .fb-image {
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 20%;
+    left: 20%;
     background-image: url('../img/Footer/fb1.png');
-    min-height: 7px;
-    width: 7px;
+    min-height: 12px;
+    width: 12px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1101,8 +1110,8 @@ body.show-modal .modal{
 .insta-wrap {
     position: relative;
     background-image: url('../img/Footer/instaBG.png');
-    min-height: 14px;
-    width: 14px;
+    min-height: 20px;
+    width: 20px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1112,11 +1121,11 @@ body.show-modal .modal{
 
 .insta-image {
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 20%;
+    left: 20%;
     background-image: url('../img/Footer/insta1.png');
-    min-height: 7px;
-    width: 7px;
+    min-height: 12px;
+    width: 12px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1150,7 +1159,7 @@ body.show-modal .modal{
 .webDesign-banner p {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 8px;
+    font-size: 10px;
     line-height: 16px;
     color: #fff;
 }
