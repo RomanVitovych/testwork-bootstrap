@@ -200,9 +200,158 @@ button {
     color: #333333;
     text-transform: uppercase;
 }
+
+
+
+
+  /* ========== BACKGROUND ========== */
+
+.backfon {
+  min-height: 680px;
+  background-color: #222222;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: right bottom 20px;
+}
+/* .contact {
+  width: 940px;
+  padding: 0;
+  margin: 0 auto;
+} */
+
+/* ===== section contact =====*/
+
+.contact-title {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* === signup form === */
+
+/* .signup-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 940px;
+} */
+
+.main-our-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
+}
+
+.signup-item { 
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 16px;
+  color: #777777;
+  padding: 5px 10px;
+}
+.signup-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.signup-item:last-child {
+  margin-bottom: 40px;
+}
+.massege {
+  width: 300px;
+  height: 180px;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 16px;
+  color: #777777;
+  resize: none;
+  padding: 10px 10px;
+}
+
+input::placeholder {
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+  padding-left: 20px;
+}
+
+textarea::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+  padding-left: 20px;
+  padding-top: 18px;
+
+}
+
+/* = validation = */
+.signup-item:focus {
+  outline: none;
+}
+
+.massege:focus {
+  outline: none;
+}
+
+.signup-item:focus:valid {
+  outline: 2px solid green;
+}
+
+.massege:focus:valid {
+  outline: 2px solid green;
+}
+
+.signup-item:focus:invalid {
+  outline: 2px solid red;
+}
+
+.massege:focus:invalid {
+  outline: 2px solid red;
+}
+
+/* === button === */
+
+.site-button {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 20px 36px;
+  margin: 0 auto;
+  border-radius: 3%;
+  border: 1px solid #ffffff;
+  margin-top: 30px;
+  margin-bottom: 114px;
+  transition: all 0.3s linear;
+}
+
+.site-button:focus,
+.site-button:hover {
+  background: #fed136;
+  border: 1px solid transparent;
+}
+
 }
 
 
+
+
+/* ===================================================================== */
 
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -230,42 +379,11 @@ button {
     color: #333333;
     text-transform: uppercase;
   }
-}
 
 
 
-@media (min-width: 1200px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
-  }
-    /* ===== title ===== */
+  /* ========== BACKGROUND ========== */
 
-  .wrap-titleContactUs__page {
-    min-height: 150px;
-    align-items: flex-end;
-    margin-bottom: 70px;
-  }
-
-  .title-contactUs__page {
-    text-align: center;
-    font-family: 'Great Vibes', sans-serif;
-    font-size: 30px;
-    color: #ff1a2c;
-  }
-
-  .subTitle-contactUs__page {
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 44px;
-    color: #333333;
-    text-transform: uppercase;
-  }
-}
-
-
-
-
-/* ========== BACKGROUND ========== */
 .backfon {
   min-height: 680px;
   background-color: #222222;
@@ -282,7 +400,7 @@ button {
 /* ===== section contact =====*/
 
 .contact-title {
-  font-size: 40px;
+  font-size: 36px;
   line-height: 48px;
   font-weight: 700;
   font-style: normal;
@@ -294,12 +412,12 @@ button {
 
 /* === signup form === */
 
-.signup-form {
+/* .signup-form {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 940px;
-}
+} */
 
 .main-our-form {
   display: flex;
@@ -320,9 +438,12 @@ button {
 .signup-item:not(:last-child) {
   margin-bottom: 30px;
 }
+.signup-item:last-child {
+  margin-bottom: 50px;
+}
 .massege {
-  width: 455px;
-  height: 100%;
+  width: 435px;
+  height: 210px;
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
@@ -401,4 +522,183 @@ textarea::placeholder {
 .site-button:hover {
   background: #fed136;
   border: 1px solid transparent;
+}
+}
+
+
+
+
+/* ===================================================================== */
+
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+    /* ===== title ===== */
+
+  .wrap-titleContactUs__page {
+    min-height: 150px;
+    align-items: flex-end;
+    margin-bottom: 70px;
+  }
+
+  .title-contactUs__page {
+    text-align: center;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 30px;
+    color: #ff1a2c;
+  }
+
+  .subTitle-contactUs__page {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 44px;
+    color: #333333;
+    text-transform: uppercase;
+  }
+
+
+
+/* ========== BACKGROUND ========== */
+
+.backfon {
+  min-height: 680px;
+  background-color: #222222;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: right bottom 20px;
+}
+/* .contact {
+  width: 940px;
+  padding: 0;
+  margin: 0 auto;
+} */
+
+/* ===== section contact =====*/
+
+.contact-title {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* === signup form === */
+
+/* .signup-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 940px;
+} */
+
+.main-our-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 455px;
+}
+
+.signup-item { 
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  color: #777777;
+  padding: 5px 10px;
+}
+.signup-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+.signup-item:last-child {
+  margin-bottom: 0;
+}
+.massege {
+  width: 435px;
+  height: 210px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  color: #777777;
+  resize: none;
+  padding: 10px 10px;
+}
+
+input::placeholder {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+  padding-left: 20px;
+}
+
+textarea::placeholder {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+  padding-left: 20px;
+  padding-top: 18px;
+
+}
+
+/* = validation = */
+.signup-item:focus {
+  outline: none;
+}
+
+.massege:focus {
+  outline: none;
+}
+
+.signup-item:focus:valid {
+  outline: 2px solid green;
+}
+
+.massege:focus:valid {
+  outline: 2px solid green;
+}
+
+.signup-item:focus:invalid {
+  outline: 2px solid red;
+}
+
+.massege:focus:invalid {
+  outline: 2px solid red;
+}
+
+/* === button === */
+
+.site-button {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 24px 48px;
+  margin: 0 auto;
+  border-radius: 3%;
+  border: 1px solid #ffffff;
+  margin-top: 30px;
+  margin-bottom: 114px;
+  transition: all 0.3s linear;
+}
+
+.site-button:focus,
+.site-button:hover {
+  background: #fed136;
+  border: 1px solid transparent;
+}
+
 }
