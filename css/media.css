@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
   .container-sm, .container {
-    max-width: 480px;
+    max-width: 320px;
   }
 
   /* ========== HEADER ========== */
@@ -28,6 +28,20 @@
 
 .nav-list li:first-child {
     margin-bottom: 25px;
+}
+
+.nav-list a {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    padding: 6px 0;
+    transition: border-bottom 0.3s linear;
+}
+.nav-list a:focus,
+.nav-list a:hover {
+    border-bottom: 2px solid #ff1a2c;
 }
 
   /* === button === */
@@ -147,11 +161,25 @@
   .nav-list {
       margin-top: 8px;
     }
+
+    .nav-list a {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+    transition: border-bottom 0.3s linear;
+}
+.nav-list a:focus,
+.nav-list a:hover {
+    border-bottom: 2px solid #ff1a2c;
+}
     
-  .nav-list a {
+  /* .nav-list a {
       font-size: 16px;
       padding: 8px 0;
-  }
+  } */
     
   .menu {
       padding-top: 30px;
@@ -591,6 +619,8 @@
 }
 
 .fb-image {
+    top: 22%;
+    left: 22%;
     min-height: 16px;
     width: 16px;
 }
@@ -601,6 +631,8 @@
 }
 
 .insta-image {
+    top: 22%;
+    left: 22%;
     min-height: 16px;
     width: 16px;
 }
@@ -660,9 +692,23 @@
   }
 
   .nav-list a {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0;
+    transition: border-bottom 0.3s linear;
+}
+.nav-list a:focus,
+.nav-list a:hover {
+    border-bottom: 2px solid #ff1a2c;
+}
+
+  /* .nav-list a {
       font-size: 20px;
       padding: 10px 0;
-  }
+  } */
 
   .menu {
       padding-top: 40px;
@@ -1070,6 +1116,8 @@
 }
 
 .fb-image {
+    top: 25%;
+    left: 25%;
     min-height: 20px;
     width: 20px;
 }
@@ -1080,6 +1128,8 @@
 }
 
 .insta-image {
+    top: 25%;
+    left: 25%;
     min-height: 20px;
     width: 20px;
 }

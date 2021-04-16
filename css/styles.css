@@ -10,9 +10,9 @@
     box-sizing: border-box;
 }
 
-*{
+/* *{
     outline: 1px red solid;
-}
+} */
 
 img {
     display: block;
@@ -206,7 +206,7 @@ button {
     justify-content: center;
 } */
 
-.nav-list a {
+/* .nav-list a {
     font-family: 'Fjalla One', sans-serif;
     font-size: 14px;
     text-transform: capitalize;
@@ -214,12 +214,12 @@ button {
     border-bottom: 2px solid transparent;
     padding: 6px 0;
     transition: border-bottom 0.3s linear;
-}
+} */
 
-.nav-list a:focus,
+/* .nav-list a:focus,
 .nav-list a:hover {
     border-bottom: 2px solid #ff1a2c;
-}
+} */
 
 .menu {
     padding-top: 20px;
@@ -399,7 +399,7 @@ button {
 
 .slide-image{
     display: block;
-    min-height: 150px;
+    min-height: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1004,7 +1004,7 @@ body.show-modal .modal{
 .footer-banner {
     background-image: 
     url('../img/Footer/background.png');
-    min-height: 80px;
+    min-height: 110px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

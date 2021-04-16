@@ -219,3 +219,51 @@ function handleESCPress(e) {
         handleCloseModal();
     };
 };
+
+
+
+
+
+// ========== happy clients ==========
+
+$(function () {   
+    $('.testimonials-list').slick({
+        centerMode: false,
+        centerPadding: '60px',
+        slidesToShow: 1,
+        dots: true,
+        arrows: true,
+        // autoplay: true,
+        // autoplaySpeed: 500,
+        // speed: 5000,
+        responsive: [
+    {
+      breakpoint: 1139,
+      settings: {
+        centerMode: false,
+        centerPadding: '40px',
+        slidesToShow: 1,
+        arrows: true,
+        dots: true,
+        slideToScroll: 1
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        centerMode: false,
+        centerPadding: '40px',
+        slidesToShow: 1,
+        arrows: true,
+        dots: true,
+      }
+    }
+  ]
+});
+})
+
+
+
+
+
+
