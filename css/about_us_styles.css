@@ -200,6 +200,14 @@ button {
     color: #333333;
     text-transform: uppercase;
 }
+
+.cont {
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #000000;
+}
 }
 
 
@@ -230,6 +238,14 @@ button {
     color: #333333;
     text-transform: uppercase;
   }
+
+  .cont {
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #000000;
+}
 }
 
 
@@ -260,4 +276,12 @@ button {
     color: #333333;
     text-transform: uppercase;
   }
+
+  .cont {
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #000000;
+}
 }

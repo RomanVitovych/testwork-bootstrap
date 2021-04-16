@@ -134,17 +134,17 @@ const wineBtn = document.querySelector('.js-wine-btn');
 
 const itemsCount = 8;
 
-const loadItems = () => {
+const loadItems = (numb) => {
     const newArray = [];
-    for (let i = 0; i < itemsCount; i += 1) {
+    for (let i = 0; i < numb; i += 1) {
         newArray.push(wineMenu[i]);
     };
     createItems(newArray);
 };
-loadItems();
+loadItems(itemsCount);
 
 wineBtn.addEventListener('click', () => {
-    loadItems();
+    loadItems(itemsCount);
 });
 
 // ===== modal window =====
@@ -193,6 +193,7 @@ function handleOpenModal(e) {
     };
 
     modalImage.src = e.target.parentNode.parentNode.firstChild.src;
+    modalImage.alt = e.target.parentNode.parentNode.firstChild.alt;
     modalTitle.textContent = e.target.parentNode.parentNode.firstChild.alt;
     modalContent.textContent = e.target.parentNode.parentNode.firstChild.dataset.source;
 
