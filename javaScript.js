@@ -105,6 +105,7 @@ const createItems = array => {
         const imageItem = document.createElement('img');
         imageItem.setAttribute('src', arr.image);
         imageItem.setAttribute('alt', arr.title);
+        imageItem.setAttribute('id', arr.id);
         imageItem.setAttribute('data-source', arr.content);
         imageWrap.appendChild(imageItem);
 
@@ -133,56 +134,28 @@ const createItems = array => {
 const wineBtn = document.querySelector('.js-wine-btn');
 
 const itemsCount = 8;
+const newArray = [];
+const load = [];
 
-const loadItems = (numb) => {
-    const newArray = [];
-    for (let i = 0; i < numb; i += 1) {
-        newArray.push(wineMenu[i]);
-    };
-    createItems(newArray);
+const loadItems = () => {
+  for (let i = 0; i < itemsCount; i += 1) {
+    newArray.push(wineMenu[i]);
+  };
+  createItems(newArray);
 };
-loadItems(itemsCount);
 
-wineBtn.addEventListener('click', () => {
-    loadItems(itemsCount);
-});
+loadItems();
 
-// ===== modal window =====
+wineBtn.addEventListener('click', handleLoadMore);
 
-// const modalList = document.querySelector('.modal');
+function handleLoadMore() {
+  for (let i = itemsCount; i < wineMenu.length; i += 1) {
+    load.push(wineMenu[i]);
+  };
+  createItems(load);
+}
 
-// const createModalItem = array => {
-//     array.map((arr) => {
             
-//         const modalImageWrap = document.createElement('div');
-//         const modalImage = document.createElement('img');
-//         modalImage.classList.add('modal-image');
-//         modalImage.setAttribute('src', arr.image);
-//         modalImage.setAttribute('alt', arr.title);
-//         modalImageWrap.appendChild(modalImage);
-
-//         const modalTopic = document.createElement('h3');
-//         modalTopic.classList.add('modal-title');
-//         modalTopic.textContent = arr.title;
-//         modalTopic.setAttribute('data-index', arr.id)
-                
-//         const modalContact = document.createElement('p');
-//         modalContact.classList.add('modal-content');
-//         modalContact.textContent = arr.content;
-        
-//         const modalItem = document.createElement('div');
-
-//         modalItem.appendChild(modalImage);
-//         modalItem.appendChild(modalTopic);
-//         modalItem.appendChild(modalContact);
-            
-//         modalList.append(modalItem)
-//     });
-//     // console.log(modalList);
-// };
-// createModalItem(wineMenu);
-
-
 
 function handleOpenModal(e) {
 
@@ -194,6 +167,7 @@ function handleOpenModal(e) {
 
     modalImage.src = e.target.parentNode.parentNode.firstChild.src;
     modalImage.alt = e.target.parentNode.parentNode.firstChild.alt;
+    modalImage.id = e.target.parentNode.parentNode.firstChild.id;
     modalTitle.textContent = e.target.parentNode.parentNode.firstChild.alt;
     modalContent.textContent = e.target.parentNode.parentNode.firstChild.dataset.source;
 
